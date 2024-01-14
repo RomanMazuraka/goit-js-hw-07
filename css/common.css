@@ -91,6 +91,8 @@ ul#categories > li.item ul li {
   object-fit: cover;
 }
 
+/* ======================= Task 3 ============================== */
+
 #name-input {
   padding-left: 16px;
   padding-top: 8px;
@@ -119,7 +121,7 @@ ul#categories > li.item ul li {
   letter-spacing: 0.04em;
 }
 
-/* ======================= Task 3 ============================== */
+/* ======================= Task 4 ============================== */
 
 form.login-form {
   max-width: 408px;
