@@ -67,6 +67,8 @@ ul#categories > li.item ul li {
   gap: 8px;
 }
 
+/* ======================= Task 2 ============================== */
+
 .gallery {
   display: flex;
   list-style: none;
@@ -87,4 +89,120 @@ ul#categories > li.item ul li {
   width: 360px;
   height: 100%;
   object-fit: cover;
+}
+
+#name-input {
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+#name-input::placeholder {
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+#name-input + h1 {
+  color: #2e2f42;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+}
+
+/* ======================= Task 3 ============================== */
+
+form.login-form {
+  max-width: 408px;
+  margin: 0 auto;
+  padding: 24px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+}
+
+form.login-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form.login-form input {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+form.login-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+form.login-form button:hover {
+  background: #6c8cff;
+}
+
+/* ==================== Task - 5 ================================= */
+.widget {
+  display: inline-flex;
+  padding: 100px 88px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.widget p {
+  width: 169px;
+  height: 24px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+.widget span.color {
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.widget button.change-color {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 40px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  padding: 16px 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.widget button.change-color:hover {
+  background-color: #0056b3;
 }
