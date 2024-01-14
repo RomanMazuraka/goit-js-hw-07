@@ -66,3 +66,25 @@ ul#categories > li.item ul li {
   align-items: flex-start;
   gap: 8px;
 }
+
+.gallery {
+  display: flex;
+  list-style: none;
+  width: 1440px;
+  height: 848px;
+  padding: 100px 156px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.gallery-item {
+  width: calc(33.333% - 16px);
+  margin-bottom: 48px;
+}
+
+.gallery-item img {
+  width: 360px;
+  height: 100%;
+  object-fit: cover;
+}
