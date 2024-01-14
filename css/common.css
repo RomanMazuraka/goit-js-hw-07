@@ -164,7 +164,7 @@ form.login-form button:hover {
   padding: 100px 88px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
+  gap: 24px;
 }
 
 .widget p {
